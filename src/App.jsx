@@ -87,7 +87,7 @@ function App() {
         {gibberish}
       </div>
       <div className='text-[#803533] text-left  flex font-play font-bold mt-4 mb-2 text-sm mx-auto max-w-[92%]'>
-        <img src='/src/assets/thislogo.svg' className='size-16 mr-4'/>
+        <img src='/photo-portfolio/src/assets/thislogo.svg' className='size-16 mr-4'/>
         <div className=''>
           EDUARDO <br /> PHOTO PORTFOLIO <br /> DATABASE
         </div>
@@ -99,7 +99,7 @@ function App() {
       <div className='max-w-[93%] mx-auto h-1.5 mb-10 z-10 
         bg-[#a9595c] shadow-[0px_0px_100px_50px_#481013] border-2 border-[#480b0e]
       ' />
-      <div className='max-w-5xl mx-auto font-play font-bold'>
+      <div className='max-w-7xl mx-auto font-play font-bold'>
         <div className='ml-1 text-2xl text-[#e97877]'>
           AVAILABLE PHOTOS
         </div>
