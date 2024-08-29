@@ -5,7 +5,11 @@ export default {
     "./src/*.jsx",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        play: ['Play']
+      }
+    },
   },
   plugins: [],
 }

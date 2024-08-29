@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: play;
+  src: url(/fonts/Play-Regular.ttf);
+}
+
+@font-face {
+  font-family: play;
+  src: url(/fonts/Play-Bold.ttf);
+  font-weight: bold;
+}
