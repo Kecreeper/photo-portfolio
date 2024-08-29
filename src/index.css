@@ -4,11 +4,29 @@
 
 @font-face {
   font-family: play;
-  src: url(/fonts/Play-Regular.ttf);
+  src: url(/fonts/Rajdhani-Light.ttf);
+  font-weight: light;
 }
 
 @font-face {
   font-family: play;
-  src: url(/fonts/Play-Bold.ttf);
+  src: url(/fonts/Rajdhani-Medium.ttf);
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: play;
+  src: url(/fonts/Rajdhani-Regular.ttf);
+}
+
+@font-face {
+  font-family: play;
+  src: url(/fonts/Rajdhani-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: play;
+  src: url(/fonts/Rajdhani-Bold.ttf);
   font-weight: bold;
 }
