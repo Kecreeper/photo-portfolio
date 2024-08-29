@@ -3,6 +3,7 @@ const gibberish = 'ⷷ⒴ℕ⌷⛸⅀⁣‧⯻₎⾿⛢⑐⺞⚆ⶳⴗ⩜⏔⳰�
 const shortGibberish  = '⛛ℌ⿭⢧⸧ⶵ⚋⮕⍡⢍';
 const shortGibberish2 = '➬⤝⟒ⓡ⚲⑁▵⤲ⷠ⎵⭃≪';
 const images = import.meta.glob('./imgs/*.{png,JPG,jpg}', { eager: true });
+const logo = import.meta.glob('./imgs/thislogo.svg', { eager: true })
 
 function Img({ onClick, src }) {
   let img = new Image();
@@ -63,7 +64,6 @@ function SelectButton({ selectedImage }) {
 
 function App() {
   const [selectedImage, setSelectedImage] = useState(null);
-
   const selectImage = (src) => {
     setSelectedImage(src)
   }
@@ -87,8 +87,8 @@ function App() {
         {gibberish}
       </div>
       <div className='text-[#803533] text-left  flex font-play font-bold mt-4 mb-2 text-sm mx-auto max-w-[92%]'>
-        <img src='/photo-portfolio/src/assets/thislogo.svg' className='size-16 mr-4'/>
-        <div className=''>
+        <img src={Object.values(logo)[0].default} className='size-16 mr-4'/>
+        <div>
           EDUARDO <br /> PHOTO PORTFOLIO <br /> DATABASE
         </div>
         <div className='text-xs ml-5 text-right'>
