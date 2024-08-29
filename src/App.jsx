@@ -87,7 +87,7 @@ function App() {
         {gibberish}
       </div>
       <div className='text-[#803533] text-left  flex font-play font-bold mt-4 mb-2 text-sm mx-auto max-w-[92%]'>
-        <img src='/src/assets/thislogo.svg' className='size-16 mx-4'/>
+        <img src='/src/assets/thislogo.svg' className='size-16 mr-4'/>
         <div className=''>
           EDUARDO <br /> PHOTO PORTFOLIO <br /> DATABASE
         </div>
